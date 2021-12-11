@@ -1,0 +1,26 @@
+{
+  "name": "beautysalon-landing-page",
+  "version": "1.0.0",
+  "description": "Responsive Landing Page for Beautysalon",
+  "main": "index.js",
+  "scripts": {
+    "test": "beautysalon-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafae2k/beautysalon-landing-page.git"
+  },
+  "author": "rafael-feitoza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafae2k/beautysalon-landing-page/issues"
+  },
+  "homepage": "https://github.com/rafae2k/beautysalon-landing-page#readme",
+  "devDependencies": {
+    "eslint": "^8.4.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "stylelint": "^14.1.0",
+    "stylelint-config-standard": "^24.0.0"
+  }
+}
