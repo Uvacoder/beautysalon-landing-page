@@ -225,19 +225,6 @@ header .logo span {
   left: 16.7%;
 }
 
-/* .image::before {
-  content: '';
-  z-index: 0;
-  width: 100%;
-  height: 95%;
-
-  position: absolute;
-  top: -5%;
-  left: 16.7%;
-
-  background: var(--secondary);
-} */
-
 .container {
   display: flex;
   flex-direction: column;
