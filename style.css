@@ -187,8 +187,17 @@ header.show .icon-close {
   top: 1.5rem;
 }
 
+header.shadow-scroll {
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.4s;
+}
+
+header .logo {
+  font-size: 1.31rem;
+}
+
 header .logo span {
-  font-size: 1.875rem;
+  font-size: 1.31rem;
   color: var(--primary);
 }
 

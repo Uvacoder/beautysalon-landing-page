@@ -14,3 +14,14 @@ navLinks.forEach((link) => {
     nav.classList.remove('show');
   });
 });
+
+const headerNav = document.querySelector('.nav');
+const headerHeight = headerNav.offsetHeight;
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY >= headerHeight) {
+    headerNav.classList.add('shadow-scroll');
+  } else {
+    headerNav.classList.remove('shadow-scroll');
+  }
+});
