@@ -13,7 +13,7 @@
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -200,26 +200,43 @@ header .logo span {
   background: var(--background);
 }
 
-#home img {
+.image img {
+  z-index: 1;
+}
+
+.image {
   width: 100%;
   height: auto;
   position: relative;
+  z-index: 1;
+
   right: 2.93rem;
   margin-bottom: 2rem;
 }
 
-#home img::before {
+.image::before {
   content: '';
+  width: 100%;
+  height: 100%;
+  background: var(--secondary);
+  position: absolute;
+  z-index: -1;
+  top: -10%;
+  left: 16.7%;
+}
 
-  width: 375px;
-  height: 256px;
+/* .image::before {
+  content: '';
+  z-index: 0;
+  width: 100%;
+  height: 95%;
 
   position: absolute;
-  top: -16.8%;
+  top: -5%;
   left: 16.7%;
 
   background: var(--secondary);
-}
+} */
 
 .container {
   display: flex;
