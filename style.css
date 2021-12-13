@@ -60,6 +60,15 @@ p {
   );
 }
 
+.divider-2 {
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    hsla(var(--hue), 36%, 57%, 1) 0%,
+    hsla(var(--hue), 65%, 88%, 0.34) 100%
+  );
+}
+
 .btn-filled p {
   font-family: DM Sans;
   font-style: normal;
@@ -240,6 +249,7 @@ header .logo span {
   align-items: center;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
+  padding-bottom: 5rem;
 }
 
 .container h2 {
@@ -250,4 +260,12 @@ header .logo span {
 .container p {
   text-align: center;
   margin-bottom: 2rem;
+}
+
+#about {
+  padding-top: 5rem;
+}
+
+.image-2 {
+  padding-bottom: 2rem;
 }
