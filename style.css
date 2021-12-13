@@ -90,6 +90,10 @@ p {
   background: var(--primary-alt);
 }
 
+.section {
+  padding: 5rem 0;
+}
+
 /* ------------------------------------ */
 
 html,
@@ -249,7 +253,6 @@ header .logo span {
   align-items: center;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
-  padding-bottom: 5rem;
 }
 
 .container h2 {
@@ -268,4 +271,44 @@ header .logo span {
 
 .image-2 {
   padding-bottom: 2rem;
+}
+
+footer {
+  background-color: var(--primary);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+footer .logo {
+  font-size: 1.25rem;
+  justify-items: flex-start;
+  padding-top: 4rem;
+  padding-bottom: 1.5rem;
+}
+
+footer .logo span {
+  color: white;
+  font-size: 1.25rem;
+}
+
+.brand .rights p {
+  color: white;
+  text-align: start;
+  margin-bottom: 0.75rem;
+}
+
+.brand {
+  margin-bottom: 2rem;
+}
+
+.social {
+  display: block;
+  color: white;
+}
+
+.social a i {
+  font-size: 2rem;
+  padding-right: 2rem;
+  jus
 }
