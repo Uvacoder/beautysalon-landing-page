@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable no-undef */
 const toggleMenu = document.querySelectorAll('.toggle-menu');
 const nav = document.querySelector('header');
 
@@ -46,4 +48,32 @@ const swiper = new Swiper('.swiper', {
   },
 });
 
-//
+// ScrollReveal
+
+const scrollReveal = ScrollReveal({
+  origin: 'top',
+  distance: '2rem',
+  duration: 700,
+  reset: true,
+});
+
+scrollReveal.reveal(
+  `
+#home .image, 
+#home .title, 
+#home p, 
+#home .btn-filled,
+#about .image-2,
+#about .title,
+#about p,
+#services .title,
+#services p,
+#services .card,
+#testimonials .title,
+#testimonials .swiper-wrapper,
+#contact .text,
+#contact .contact-info
+`,
+  // eslint-disable-next-line comma-dangle
+  { interval: 100 }
+);
