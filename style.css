@@ -359,6 +359,50 @@ blockquote p {
   margin-bottom: 0;
 }
 
+/* ---------------- CONTACT ------------------ */
+
+#contact .container {
+  align-items: start;
+}
+
+#contact .btn-filled {
+  box-sizing: content-box;
+}
+
+#contact .btn-filled i {
+  color: white;
+  font-size: 1.5rem;
+  margin-right: 0.625rem;
+}
+
+#contact h2,
+#contact p {
+  text-align: left;
+}
+.contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact .text {
+  margin-bottom: 4rem;
+}
+
+.info {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.info i {
+  font-size: 1.5rem;
+  margin-right: 0.75rem;
+  color: var(--primary);
+}
+
+.info p {
+  margin-bottom: 0;
+}
+
 /* ---------------- FOOTER ------------------ */
 
 footer {
@@ -366,13 +410,13 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 footer .logo {
   font-size: 1.25rem;
   justify-items: flex-start;
-  padding-top: 4rem;
-  padding-bottom: 1.5rem;
 }
 
 footer .logo span {
@@ -396,6 +440,9 @@ footer .logo span {
 }
 
 .social a i {
+  width: 2rem;
+  height: 2rem;
   font-size: 2rem;
+  color: white;
   padding-right: 2rem;
 }
