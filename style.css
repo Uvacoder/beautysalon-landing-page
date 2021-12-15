@@ -359,14 +359,18 @@ blockquote p {
   margin-bottom: 0;
 }
 
+.swiper-slide {
+  padding-bottom: 2rem;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--primary);
+}
+
 /* ---------------- CONTACT ------------------ */
 
 #contact .container {
   align-items: start;
-}
-
-#contact .btn-filled {
-  box-sizing: content-box;
 }
 
 #contact .btn-filled i {
