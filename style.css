@@ -438,12 +438,8 @@ footer .logo span {
   margin-bottom: 2rem;
 }
 
-.social {
-  display: block;
-  color: white;
-}
-
 .social a i {
+  box-sizing: content-box;
   width: 2rem;
   height: 2rem;
   font-size: 2rem;
