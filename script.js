@@ -25,3 +25,25 @@ window.addEventListener('scroll', () => {
     headerNav.classList.remove('shadow-scroll');
   }
 });
+
+// Swiper
+
+const swiper = new Swiper('.swiper', {
+  slidesPerView: 1,
+  spaceBetween: 5,
+
+  autoplay: {
+    delay: 5000,
+  },
+
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+});
+
+//
