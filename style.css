@@ -310,6 +310,55 @@ header .logo span {
   text-align: center;
 }
 
+/* ---------------- TESTIMONIALS ------------- */
+
+#testimonials .title {
+  margin-bottom: 4rem;
+}
+
+blockquote:before {
+  content: '\201C';
+  font-size: 3em;
+  line-height: 0.1em;
+  margin-right: 0.15em;
+  vertical-align: -0.4em;
+  color: var(--primary);
+}
+
+blockquote p {
+  display: inline;
+}
+
+.card-testimonials span {
+  font-size: 3rem;
+}
+
+.avatar {
+  width: 2rem;
+  border-radius: 50%;
+}
+
+#testimonials .card {
+  align-items: flex-start;
+  border-bottom: 0;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+#testimonials .card blockquote {
+  margin-bottom: 1.5rem;
+}
+
+.client {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.client p {
+  margin-bottom: 0;
+}
+
 /* ---------------- FOOTER ------------------ */
 
 footer {
