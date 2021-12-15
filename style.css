@@ -424,6 +424,10 @@ footer .logo span {
   font-size: 1.25rem;
 }
 
+#footer .container {
+  align-items: flex-start;
+}
+
 .brand .rights p {
   color: white;
   text-align: start;
