@@ -273,6 +273,45 @@ header .logo span {
   padding-bottom: 2rem;
 }
 
+/* ---------------- SERVIÇOS ------------------ */
+
+#services .title,
+#services p {
+  text-align: start;
+}
+
+#services .header {
+  margin-bottom: 1rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3.625rem 2rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 4px solid var(--primary);
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+}
+
+.card i {
+  font-size: 5rem;
+  color: var(--primary);
+  padding-bottom: 1.5rem;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+#services .card p {
+  padding-bottom: 0;
+  text-align: center;
+}
+
+/* ---------------- FOOTER ------------------ */
+
 footer {
   background-color: var(--primary);
   display: flex;
@@ -310,5 +349,4 @@ footer .logo span {
 .social a i {
   font-size: 2rem;
   padding-right: 2rem;
-  jus
 }
